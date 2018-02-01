@@ -1,0 +1,28 @@
+.remark-slide-content {
+  background-size: contain;
+}
+
+/* .title-slide {
+  background-image: url(img/Rlogo.png);
+  background-size: cover;
+} */
+
+.title-slide {
+  background-image: url(https://www.r-project.org/logo/Rlogo.png);
+  background-size: cover;
+}
+
+.leaflet {
+  margin: auto !important;
+}
+
+.img-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 550px;
+}
+
+.pink span {
+  color: red;
+}
