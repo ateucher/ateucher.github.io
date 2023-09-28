@@ -1,0 +1,18 @@
+---
+title: "Andy Teucher"
+about:
+  template: jolla
+  image: img/profile.png
+  links:
+    - icon: mastodon
+      text: Mastodon
+      href: https://fosstodon.org/@andyteucher
+    - icon: github
+      text: Github
+      href: https://github.com/ateucher
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/andyteucher/
+---
+
+About this site

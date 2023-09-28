@@ -1,0 +1,16 @@
+---
+title: "Andy Teucher"
+---
+
+I am a biologist turned data scientist, specializing in helping people and 
+organizations build maintainable, reproducible data workflows.
+
+## Services
+
+### Data Science Consulting
+
+### Teaching and Workshops
+
+### R Package development
+
+### Shiny App developement

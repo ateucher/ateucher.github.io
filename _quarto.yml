@@ -1,0 +1,31 @@
+project:
+  type: website
+
+execute:
+  freeze: auto
+
+website:
+  title: "Andy Teucher"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: shiny.qmd
+        text: Shiny Apps
+      - href: packages.qmd
+        text: R Packages
+      - href: workshops.qmd
+        text: Workshops
+    right:
+      - blog.qmd
+      - href: about.qmd
+        text: About
+
+format:
+  html:
+    theme: [journal, style.scss]
+    css: styles.css
+    toc: true
+
+
+
