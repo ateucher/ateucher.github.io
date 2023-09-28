@@ -8,11 +8,14 @@ about:
       text: Mastodon
       href: https://fosstodon.org/@andyteucher
     - icon: github
-      text: Github
+      text: GitHub
       href: https://github.com/ateucher
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/andyteucher/
+    - icon: envelope-at
+      text: Email
+      href: mailto:andy@andyteucher.ca
 ---
 
 About this site

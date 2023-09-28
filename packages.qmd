@@ -1,3 +1,19 @@
 ---
 title: "R Packages"
+listing:
+  type: grid
+  contents:
+    - path: "https://andyteucher.ca/rmapshaper"
+      title: "rmapshaper"
+      subtitle: "Simplify and transform spatial objects"
+    - path: "https://andyteucher.ca/lutz"
+      title: "lutz"
+      subtitle: "Look up time zones for spatial coordinates"
+    - path: "https://bcgov.github.io/bcdata"
+      title: "bcdata"
+      subtitle: "Query and download data from the BC Data Catalogue"
+    - path: "https://bcgov.github.io/bcmaps"
+      title: "bcmaps"
+      subtitle: "Easily download and use map layers from British Columbia"
+  fields: [image, title, subtitle]
 ---
