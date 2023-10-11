@@ -2,26 +2,55 @@
 title: "R Packages"
 listing:
   - id: cran-maintain
+    image-height: 150px
     type: grid
-    image-height: 300px
     contents:
       - path: "https://andyteucher.ca/rmapshaper"
         image: "img/rmapshaper-logo.png"
         title: "rmapshaper"
         subtitle: "Simplify and transform spatial objects"
+        author: "Andy Teucher, Kent Russel"
       - path: "https://bcgov.github.io/bcdata"
         image: "img/bcdata-logo.png"
         title: "bcdata"
         subtitle: "Query and download data from the BC Data Catalogue"
+        author: "Andy Teucher, Sam Albers, Stephanie Hazlitt"
       - path: "https://bcgov.github.io/bcmaps"
         image: "img/bcmaps-logo.png"
         title: "bcmaps"
         subtitle: "Easily download and use map layers from British Columbia"
+        author: "Andy Teucher, Sam Albers, Stephanie Hazlitt"
       - path: "https://andyteucher.ca/lutz"
         title: "lutz"
         subtitle: "Look up time zones for spatial coordinates"
-    fields: [image, title, subtitle]
+        author: "Andy Teucher, Bob Rudis"
+    fields: [image, title, subtitle, author]
     
+  - id: cran-author
+    image-height: 150px
+    type: grid
+    fields: [image, title, subtitle, author]
+    contents: 
+      - path: "https://usethis.r-lib.org"
+        image: "img/usethis-logo.png"
+        title: "usethis"
+        subtitle: "Automate package and project setup tasks"
+        author: "Hadley Wickham, Jennifer Bryan, Malcolm Barrett, Andy Teucher"
+      - path: "https://docs.ropensci.org/rebird/"
+        image: "img/ropensci-logo.png"
+        title: "rebird"
+        subtitle: "Access the eBird database of bird observations"
+        author: "Rafael Maia, Scott Chamberlain, Andy Teucher, Sebastian Pardo"
+      - path: "https://docs.ropensci.org/geojsonio/"
+        image: "img/ropensci-logo.png"
+        title: "geojsonio"
+        subtitle: "Convert various data formats to GeoJSON or TopoJSON"
+        author: "Scott Chamberlain, Andy Teucher, Michael Mahoney"
+      - path: "https://r-spatial.github.io/lwgeom/"
+        title: "lwgeom"
+        subtitle: "Bindings to liblwgeom for simple features"
+        author: "Edzer Pebesma, Colin Rundel, Andy Teucher"
+        
   - id: github-maintain
     fields: [title, subtitle, date, author, image]
     contents: 
@@ -47,33 +76,9 @@ listing:
         title: "canwqdata"
         subtitle: "Get Canadian Long-Term Water Quality Monitoring Data"
 
-  - id: cran-author
-    type: grid
-    image-height: 300px
-    fields: [image, title, subtitle]
-    contents: 
-      - path: "https://r-lib.org/usethis"
-        image: "img/usethis-logo.png"
-        title: "usethis"
-        subtitle: "Automate package and project setup tasks"
-      - path: "https://docs.ropensci.org/rebird/"
-        image: "img/ropensci-logo.png"
-        title: "rebird"
-        subtitle: "Access the eBird database of bird observations"
-      - path: "https://bcgov.github.io/ssdtools/"
-        image: "img/ssdtools-logo.png"
-        title: "ssdtools"
-        subtitle: "Fit and plot Species Senstivity Distributions"
-      - path: "https://docs.ropensci.org/geojsonio/"
-        image: "img/ropensci-logo.png"
-        title: "geojsonio"
-        subtitle: "Convert various data formats to GeoJSON or TopoJSON"
-      - path: "https://r-spatial.github.io/lwgeom/"
-        title: "lwgeom"
-        subtitle: "Bindings to liblwgeom for simple features"
 ---
 
-## My packages on CRAN
+## Packages on CRAN
 
 ::: {#cran-maintain}
 :::

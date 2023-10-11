@@ -18,3 +18,7 @@ $font-family-monospace: "Fira Code";
 .quarto-grid-item div.post-contents {
   padding-bottom: 0;
 }
+
+div.quarto-post .thumbnail img {
+  object-fit: contain;
+}
