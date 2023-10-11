@@ -71,13 +71,41 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-subtitle','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-path","listing-image","listing-title","listing-subtitle"],
+      searchColumns: ["listing-path","listing-image","listing-title","listing-subtitle","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-cran-maintain'] = new List('listing-cran-maintain', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-cran-author .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-title','listing-subtitle','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-path","listing-image","listing-title","listing-subtitle","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-cran-author'] = new List('listing-cran-author', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -106,34 +134,6 @@ ul.task-list li input[type="checkbox"] {
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-github-maintain'] = new List('listing-github-maintain', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-cran-author .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-path","listing-image","listing-title","listing-subtitle"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-cran-author'] = new List('listing-cran-author', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -212,7 +212,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#my-packages-on-cran" id="toc-my-packages-on-cran" class="nav-link active" data-scroll-target="#my-packages-on-cran">My packages on CRAN</a></li>
+  <li><a href="#packages-on-cran" id="toc-packages-on-cran" class="nav-link active" data-scroll-target="#packages-on-cran">Packages on CRAN</a></li>
   <li><a href="#cran-packages-contributing-author" id="toc-cran-packages-contributing-author" class="nav-link" data-scroll-target="#cran-packages-contributing-author">CRAN packages (contributing author)</a></li>
   <li><a href="#packages-on-github" id="toc-packages-on-github" class="nav-link" data-scroll-target="#packages-on-github">Packages on GitHub</a></li>
   </ul>
@@ -238,15 +238,15 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="my-packages-on-cran" class="level2">
-<h2 class="anchored" data-anchor-id="my-packages-on-cran">My packages on CRAN</h2>
+<section id="packages-on-cran" class="level2">
+<h2 class="anchored" data-anchor-id="packages-on-cran">Packages on CRAN</h2>
 <div id="listing-cran-maintain" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0">
 <a href="https://andyteucher.ca/rmapshaper" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="img/rmapshaper-logo.png" class="thumbnail-image card-img" style="height: 300px;">
+<img src="img/rmapshaper-logo.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -254,6 +254,11 @@ rmapshaper
 </h5>
 <div class="card-subtitle listing-subtitle">
 Simplify and transform spatial objects
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Andy Teucher, Kent Russel
+</div>
 </div>
 </div>
 </div>
@@ -263,7 +268,7 @@ Simplify and transform spatial objects
 <a href="https://bcgov.github.io/bcdata" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="img/bcdata-logo.png" class="thumbnail-image card-img" style="height: 300px;">
+<img src="img/bcdata-logo.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -271,6 +276,11 @@ bcdata
 </h5>
 <div class="card-subtitle listing-subtitle">
 Query and download data from the BC Data Catalogue
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Andy Teucher, Sam Albers, Stephanie Hazlitt
+</div>
 </div>
 </div>
 </div>
@@ -280,7 +290,7 @@ Query and download data from the BC Data Catalogue
 <a href="https://bcgov.github.io/bcmaps" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="img/bcmaps-logo.png" class="thumbnail-image card-img" style="height: 300px;">
+<img src="img/bcmaps-logo.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -288,6 +298,11 @@ bcmaps
 </h5>
 <div class="card-subtitle listing-subtitle">
 Easily download and use map layers from British Columbia
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Andy Teucher, Sam Albers, Stephanie Hazlitt
+</div>
 </div>
 </div>
 </div>
@@ -302,6 +317,11 @@ lutz
 </h5>
 <div class="card-subtitle listing-subtitle">
 Look up time zones for spatial coordinates
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Andy Teucher, Bob Rudis
+</div>
 </div>
 </div>
 </div>
@@ -318,10 +338,10 @@ No matching items
 <div id="listing-cran-author" class="quarto-listing quarto-listing-container-grid">
 <div class="list grid quarto-listing-cols-3">
 <div class="g-col-1" data-index="0">
-<a href="https://r-lib.org/usethis" class="quarto-grid-link">
+<a href="https://usethis.r-lib.org" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="img/usethis-logo.png" class="thumbnail-image card-img" style="height: 300px;">
+<img src="img/usethis-logo.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -329,6 +349,11 @@ usethis
 </h5>
 <div class="card-subtitle listing-subtitle">
 Automate package and project setup tasks
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Hadley Wickham, Jennifer Bryan, Malcolm Barrett, Andy Teucher
+</div>
 </div>
 </div>
 </div>
@@ -338,7 +363,7 @@ Automate package and project setup tasks
 <a href="https://docs.ropensci.org/rebird/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="img/ropensci-logo.png" class="thumbnail-image card-img" style="height: 300px;">
+<img src="img/ropensci-logo.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -347,32 +372,20 @@ rebird
 <div class="card-subtitle listing-subtitle">
 Access the eBird database of bird observations
 </div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Rafael Maia, Scott Chamberlain, Andy Teucher, Sebastian Pardo
+</div>
+</div>
 </div>
 </div>
 </a>
 </div>
 <div class="g-col-1" data-index="2">
-<a href="https://bcgov.github.io/ssdtools/" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="img/ssdtools-logo.png" class="thumbnail-image card-img" style="height: 300px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-ssdtools
-</h5>
-<div class="card-subtitle listing-subtitle">
-Fit and plot Species Senstivity Distributions
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3">
 <a href="https://docs.ropensci.org/geojsonio/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img src="img/ropensci-logo.png" class="thumbnail-image card-img" style="height: 300px;">
+<img src="img/ropensci-logo.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
@@ -381,11 +394,16 @@ geojsonio
 <div class="card-subtitle listing-subtitle">
 Convert various data formats to GeoJSON or TopoJSON
 </div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Scott Chamberlain, Andy Teucher, Michael Mahoney
+</div>
+</div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="4">
+<div class="g-col-1" data-index="3">
 <a href="https://r-spatial.github.io/lwgeom/" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
@@ -394,6 +412,11 @@ lwgeom
 </h5>
 <div class="card-subtitle listing-subtitle">
 Bindings to liblwgeom for simple features
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Edzer Pebesma, Colin Rundel, Andy Teucher
+</div>
 </div>
 </div>
 </div>

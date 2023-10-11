@@ -32,21 +32,21 @@
     "href": "packages.html",
     "title": "R Packages",
     "section": "",
-    "text": "Simplify and transform spatial objects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuery and download data from the BC Data Catalogue\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEasily download and use map layers from British Columbia\n\n\n\n\n\n\n\n\n\n\n\nLook up time zones for spatial coordinates\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Simplify and transform spatial objects\n\n\n\nAndy Teucher, Kent Russel\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuery and download data from the BC Data Catalogue\n\n\n\nAndy Teucher, Sam Albers, Stephanie Hazlitt\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEasily download and use map layers from British Columbia\n\n\n\nAndy Teucher, Sam Albers, Stephanie Hazlitt\n\n\n\n\n\n\n\n\n\n\n\n\nLook up time zones for spatial coordinates\n\n\n\nAndy Teucher, Bob Rudis\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "packages.html#my-packages-on-cran",
-    "href": "packages.html#my-packages-on-cran",
+    "objectID": "packages.html#packages-on-cran",
+    "href": "packages.html#packages-on-cran",
     "title": "R Packages",
     "section": "",
-    "text": "Simplify and transform spatial objects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuery and download data from the BC Data Catalogue\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEasily download and use map layers from British Columbia\n\n\n\n\n\n\n\n\n\n\n\nLook up time zones for spatial coordinates\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Simplify and transform spatial objects\n\n\n\nAndy Teucher, Kent Russel\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuery and download data from the BC Data Catalogue\n\n\n\nAndy Teucher, Sam Albers, Stephanie Hazlitt\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEasily download and use map layers from British Columbia\n\n\n\nAndy Teucher, Sam Albers, Stephanie Hazlitt\n\n\n\n\n\n\n\n\n\n\n\n\nLook up time zones for spatial coordinates\n\n\n\nAndy Teucher, Bob Rudis\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "packages.html#cran-packages-contributing-author",
     "href": "packages.html#cran-packages-contributing-author",
     "title": "R Packages",
     "section": "CRAN packages (contributing author)",
-    "text": "CRAN packages (contributing author)\n\n\n\n\n\n\n\n\n\n\nusethis\n\n\nAutomate package and project setup tasks\n\n\n\n\n\n\n\n\n\n\n\n\n\nrebird\n\n\nAccess the eBird database of bird observations\n\n\n\n\n\n\n\n\n\n\n\n\n\nssdtools\n\n\nFit and plot Species Senstivity Distributions\n\n\n\n\n\n\n\n\n\n\n\n\n\ngeojsonio\n\n\nConvert various data formats to GeoJSON or TopoJSON\n\n\n\n\n\n\n\n\n\n\nlwgeom\n\n\nBindings to liblwgeom for simple features\n\n\n\n\n\n\n\nNo matching items"
+    "text": "CRAN packages (contributing author)\n\n\n\n\n\n\n\n\n\n\nusethis\n\n\nAutomate package and project setup tasks\n\n\n\nHadley Wickham, Jennifer Bryan, Malcolm Barrett, Andy Teucher\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nrebird\n\n\nAccess the eBird database of bird observations\n\n\n\nRafael Maia, Scott Chamberlain, Andy Teucher, Sebastian Pardo\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ngeojsonio\n\n\nConvert various data formats to GeoJSON or TopoJSON\n\n\n\nScott Chamberlain, Andy Teucher, Michael Mahoney\n\n\n\n\n\n\n\n\n\n\n\nlwgeom\n\n\nBindings to liblwgeom for simple features\n\n\n\nEdzer Pebesma, Colin Rundel, Andy Teucher\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "packages.html#packages-on-github",
