@@ -30,16 +30,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Andy Teucher",
+    "title": "Andy Teucher, Data Science Consulting",
     "section": "",
     "text": "I am a biologist turned data scientist, specializing in helping people and organizations build maintainable, reproducible data workflows. I am a strong open data and open code advocate, and believe in the value of using and contributing to open-source software."
   },
   {
     "objectID": "index.html#services",
     "href": "index.html#services",
-    "title": "Andy Teucher",
+    "title": "Andy Teucher, Data Science Consulting",
     "section": "Services",
-    "text": "Services\n\nData Science Consulting\nI help people and organizations understand their data and find the meaning within. I specialize in doing data science with the R programming language, and have a strong focus on reproducibility.\nMy areas of expertise include:\n\nBig data using Apache Arrow and duckdb\nPopulation data science\nBiological and environmental data analysis and visualization\nSpatial data analysis and visualization\nData workflow optimization and automation\n\nI can also help your organization understand and use open-source licenses for data and code, collaborate effectively using Git and GitHub, and organize and manage your data.\n\n\nTeaching and Workshops\nI am a passionate and experienced data science and programming instructor, and I am certified as a Carpentries instructor.\nExample workshop topics include:\n\nIntroduction to data science with R\nR package development\nGeospatial data science with R\nGit and GitHub\n\nThis is not an exhaustive list! Please reach out if you have a workshop idea you’d like to discuss.\n\n\nR Package development\nI am an expert R package developer. I maintain several packages on CRAN and have contributed to many others. I can help you develop and maintain your R package, or develop a new package for your organization.\n\n\nShiny App development\nI will help you understand and communicate your data by creating custom interactive dashboards and visualization tools using Shiny."
+    "text": "Services\n\n\n\nData Science Consulting\nI help people and organizations understand their data and find the meaning within. I specialize in doing data science with the R programming language, and have a strong focus on reproducibility.\nMy areas of expertise include:\n\nBig data using Apache Arrow and duckdb\nPopulation data science\nBiological and environmental data analysis and visualization\nSpatial data analysis and visualization\nData workflow optimization and automation\n\nI can also help your organization understand and use open-source licenses for data and code, collaborate effectively using Git and GitHub, and organize and manage your data.\n\n\nTeaching and Workshops\nI am a passionate and experienced data science and programming instructor, and I am certified as a Carpentries instructor.\nExample workshop topics include:\n\nIntroduction to data science with R\nR package development\nGeospatial data science with R\nGit and GitHub\n\nThis is not an exhaustive list! Please reach out if you have a workshop idea you’d like to discuss.\n\n\nData Science Software Development\nI am an expert R package developer. I maintain several packages on CRAN and have contributed to many others. I can help you develop and maintain your R package, or develop a new package for your organization.\n\n\nInteractive Web Applications\nI will help you understand and communicate your data by creating custom interactive dashboards, web applications, and visualization tools using Shiny."
   },
   {
     "objectID": "blog.html",
@@ -49,10 +49,24 @@
     "text": "No matching items"
   },
   {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Email: andy@andyteucher.ca\nLocation: Victoria, BC, Canada\n\n\nMastodon: fosstodon/@andyteucher\nGitHub: ateucher\nLinkedIn: andyteucher"
+  },
+  {
+    "objectID": "contact.html#andy-teucher-msc.",
+    "href": "contact.html#andy-teucher-msc.",
+    "title": "Contact",
+    "section": "",
+    "text": "Email: andy@andyteucher.ca\nLocation: Victoria, BC, Canada\n\n\nMastodon: fosstodon/@andyteucher\nGitHub: ateucher\nLinkedIn: andyteucher"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "Andy Teucher",
     "section": "",
-    "text": "I am a data scientist and package developer with a passion for teaching others how to use data science tools to make their work more efficient and reproducible. My background is in conservation biology, with an MSc in Ecology from the University of Calgary. I have spent much of my career as a data scientist in government, where I made it my mission to promote and teach open, reproducible data science practices. I have written many R packages for internal use in my teams as well as for a broader audience, with several hosted on CRAN. I especially enjoy developing packages to make it easier to work with spatial data in R. I am a certified Software Carpentry and Data Carpentry instructor, and have led many workshops teaching programming skills to scientists and data professionals.\nPlease see my resume for details of my skills and experience."
+    "text": "I am a data scientist and package developer with a passion for teaching others how to use data science tools to make their work more efficient and reproducible. My background is in conservation biology, with an MSc in Ecology from the University of Calgary. I have spent much of my career as a data scientist in government, where I made it my mission to use and promote open, reproducible data science practices. I have written many R packages for internal use in my teams as well as for a broader audience, with several hosted on CRAN. I especially enjoy developing packages to make it easier to work with spatial data in R. I am a certified Software Carpentry and Data Carpentry instructor, and have led many workshops teaching programming skills to scientists and data professionals.\nPlease see my resume for details of my skills and experience."
   }
 ]
