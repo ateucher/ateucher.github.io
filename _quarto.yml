@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - CNAME
 
 execute:
   freeze: auto
@@ -21,8 +23,6 @@ website:
       - blog.qmd
       - href: about.qmd
         text: About
-  resources:
-    - CNAME
 
 format:
   html:
