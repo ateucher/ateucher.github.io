@@ -11,7 +11,7 @@
     "href": "about.html",
     "title": "Andy Teucher",
     "section": "",
-    "text": "About this site"
+    "text": "I am a data scientist and package developer with a passion for teaching others how to use data science tools to make their work more efficient and reproducible. My background is in conservation biology, with an MSc in Ecology from the University of Calgary. I have spent much of my career as a data scientist in government, where I made it my mission to promote and teach open, reproducible data science practices. I have written many R packages for internal use in my teams as well as for a broader audience, with several hosted on CRAN. I especially enjoy developing packages to make it easier to work with spatial data in R. I am a certified Software Carpentry and Data Carpentry instructor, and have led many workshops teaching programming skills to scientists and data professionals.\nPlease see my full resume for details of my experience."
   },
   {
     "objectID": "index.html",
@@ -25,6 +25,34 @@
     "href": "index.html#services",
     "title": "Andy Teucher",
     "section": "Services",
-    "text": "Services\n\nData Science Consulting\n\n\nTeaching and Workshops\n\n\nR Package development\n\n\nShiny App developement"
+    "text": "Services\n\nData Science Consulting\nI help people and organizations understand their data and find the meaning within. I specialize in doing data science with the R programming language, and have a strong focus on reproducibility.\nMy areas of expertise include:\n\nBig data using Apache Arrow and duckdb\nPopulation data science\nBiological and environmental data analysis and visualization\nSpatial data analysis and visualization\nData workflow optimization and automation\n\nI can also help your organization understand and use open-source licenses for data and code, collaborate effectively using Git and GitHub, and organize and manage your data.\n\n\nTeaching and Workshops\nI am a passionate and experienced data science and programming instructor and I am certified as a Carpentries instructor.\nExample workshop topics include:\n\nIntroduction to data science with R\nR package development\nGeospatial data with R\nGit and GitHub\n\nThis is not an exhaustive list! Please reach out if you have a workshop idea you’d like to discuss.\n\n\nR Package development\nI am an expert R package developer. I maintain four packages on CRAN and have contributed to many others. I can help you develop and maintain your R package, or develop a new package for your organization.\n\n\nShiny App development"
+  },
+  {
+    "objectID": "packages.html",
+    "href": "packages.html",
+    "title": "R Packages",
+    "section": "",
+    "text": "Simplify and transform spatial objects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuery and download data from the BC Data Catalogue\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEasily download and use map layers from British Columbia\n\n\n\n\n\n\n\n\n\n\n\nLook up time zones for spatial coordinates\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "packages.html#my-packages-on-cran",
+    "href": "packages.html#my-packages-on-cran",
+    "title": "R Packages",
+    "section": "",
+    "text": "Simplify and transform spatial objects\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nQuery and download data from the BC Data Catalogue\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEasily download and use map layers from British Columbia\n\n\n\n\n\n\n\n\n\n\n\nLook up time zones for spatial coordinates\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "packages.html#cran-packages-contributing-author",
+    "href": "packages.html#cran-packages-contributing-author",
+    "title": "R Packages",
+    "section": "CRAN packages (contributing author)",
+    "text": "CRAN packages (contributing author)\n\n\n\n\n\n\n\n\n\n\nusethis\n\n\nAutomate package and project setup tasks\n\n\n\n\n\n\n\n\n\n\n\n\n\nrebird\n\n\nAccess the eBird database of bird observations\n\n\n\n\n\n\n\n\n\n\n\n\n\nssdtools\n\n\nFit and plot Species Senstivity Distributions\n\n\n\n\n\n\n\n\n\n\n\n\n\ngeojsonio\n\n\nConvert various data formats to GeoJSON or TopoJSON\n\n\n\n\n\n\n\n\n\n\nlwgeom\n\n\nBindings to liblwgeom for simple features\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "packages.html#packages-on-github",
+    "href": "packages.html#packages-on-github",
+    "title": "R Packages",
+    "section": "Packages on GitHub",
+    "text": "Packages on GitHub\n\n\n\n\n \n\n\n\n\nrems\n\n\nGet Data From British Columbia’s Environmental Monitoring System\n\n\n\n\n \n\n\n\n\n \n\n\n\n\nbcgovr\n\n\nSet Up of ‘bcgov’ R Projects & Packages\n\n\n\n\n \n\n\n\n\n \n\n\n\n\nbcgroundwater\n\n\nAnalyse B.C. Groundwater Level Data\n\n\n\n\n \n\n\n\n\n \n\n\n\n\nrcaaqs\n\n\nTools to implement CAAQS analysis for air quality\n\n\n\n\n \n\n\n\n\n \n\n\n\n\nwqbc\n\n\nTidy Water Quality Data and Calculate Thresholds for British Columbia\n\n\n\n\n \n\n\n\n\n \n\n\n\n\nwqindex\n\n\nWater Quality Index Calculation for British Columbia\n\n\n\n\n \n\n\n\n\n \n\n\n\n\ncanwqdata\n\n\nGet Canadian Long-Term Water Quality Monitoring Data\n\n\n\n\n \n\n\n\n\nNo matching items"
   }
 ]
