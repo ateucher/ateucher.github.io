@@ -6,6 +6,7 @@ execute:
 
 website:
   title: "Andy Teucher"
+  site-url: "https://andyteucher.ca"
   navbar:
     left:
       - href: index.qmd
