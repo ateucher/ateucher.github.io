@@ -1,19 +1,90 @@
 ---
 title: "R Packages"
 listing:
-  type: grid
-  contents:
-    - path: "https://andyteucher.ca/rmapshaper"
-      title: "rmapshaper"
-      subtitle: "Simplify and transform spatial objects"
-    - path: "https://andyteucher.ca/lutz"
-      title: "lutz"
-      subtitle: "Look up time zones for spatial coordinates"
-    - path: "https://bcgov.github.io/bcdata"
-      title: "bcdata"
-      subtitle: "Query and download data from the BC Data Catalogue"
-    - path: "https://bcgov.github.io/bcmaps"
-      title: "bcmaps"
-      subtitle: "Easily download and use map layers from British Columbia"
-  fields: [image, title, subtitle]
+  - id: cran-maintain
+    type: grid
+    image-height: 300px
+    contents:
+      - path: "https://andyteucher.ca/rmapshaper"
+        image: "img/rmapshaper-logo.png"
+        title: "rmapshaper"
+        subtitle: "Simplify and transform spatial objects"
+      - path: "https://bcgov.github.io/bcdata"
+        image: "img/bcdata-logo.png"
+        title: "bcdata"
+        subtitle: "Query and download data from the BC Data Catalogue"
+      - path: "https://bcgov.github.io/bcmaps"
+        image: "img/bcmaps-logo.png"
+        title: "bcmaps"
+        subtitle: "Easily download and use map layers from British Columbia"
+      - path: "https://andyteucher.ca/lutz"
+        title: "lutz"
+        subtitle: "Look up time zones for spatial coordinates"
+    fields: [image, title, subtitle]
+    
+  - id: github-maintain
+    fields: [title, subtitle, date, author, image]
+    contents: 
+      - path: "https://github.com/bcgov/rems"
+        title: "rems"
+        subtitle: "Get Data From British Columbia's Environmental Monitoring System"
+      - path: "https://github.com/bcgov/bcgovr"
+        title: "bcgovr"
+        subtitle: "Set Up of 'bcgov' R Projects & Packages"
+      - path: "https://github.com/bcgov/bcgroundwater"
+        title: "bcgroundwater"
+        subtitle: "Analyse B.C. Groundwater Level Data"
+      - path: "https://github.com/bcgov/rcaaqs"
+        title: "rcaaqs"
+        subtitle: "Tools to implement CAAQS analysis for air quality"
+      - path: "https://github.com/bcgov/wqbc"
+        title: "wqbc"
+        subtitle: "Tidy Water Quality Data and Calculate Thresholds for British Columbia"
+      - path: "https://github.com/bcgov/wqindex"
+        title: "wqindex"
+        subtitle: "Water Quality Index Calculation for British Columbia"
+      - path: "https://github.com/bcgov/canwqdata"
+        title: "canwqdata"
+        subtitle: "Get Canadian Long-Term Water Quality Monitoring Data"
+
+  - id: cran-author
+    type: grid
+    image-height: 300px
+    fields: [image, title, subtitle]
+    contents: 
+      - path: "https://r-lib.org/usethis"
+        image: "img/usethis-logo.png"
+        title: "usethis"
+        subtitle: "Automate package and project setup tasks"
+      - path: "https://docs.ropensci.org/rebird/"
+        image: "img/ropensci-logo.png"
+        title: "rebird"
+        subtitle: "Access the eBird database of bird observations"
+      - path: "https://bcgov.github.io/ssdtools/"
+        image: "img/ssdtools-logo.png"
+        title: "ssdtools"
+        subtitle: "Fit and plot Species Senstivity Distributions"
+      - path: "https://docs.ropensci.org/geojsonio/"
+        image: "img/ropensci-logo.png"
+        title: "geojsonio"
+        subtitle: "Convert various data formats to GeoJSON or TopoJSON"
+      - path: "https://r-spatial.github.io/lwgeom/"
+        title: "lwgeom"
+        subtitle: "Bindings to liblwgeom for simple features"
 ---
+
+## My packages on CRAN
+
+::: {#cran-maintain}
+:::
+
+## CRAN packages (contributing author)
+
+::: {#cran-author}
+:::
+
+## Packages on GitHub
+
+::: {#github-maintain}
+:::
+

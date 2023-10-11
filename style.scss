@@ -10,3 +10,11 @@ $font-family-monospace: "Fira Code";
 .cell-output > pre > code {
   background-color: rgba(67,67,67,.65);
 }
+
+.quarto-grid-item p.card-img-top>img {
+  object-fit: contain;
+}
+
+.quarto-grid-item div.post-contents {
+  padding-bottom: 0;
+}

@@ -2,15 +2,39 @@
 title: "Andy Teucher"
 ---
 
-I am a biologist turned data scientist, specializing in helping people and 
-organizations build maintainable, reproducible data workflows.
+I am a biologist turned data scientist, specializing in helping people and organizations build maintainable, reproducible data workflows.
 
 ## Services
 
 ### Data Science Consulting
 
+I help people and organizations understand their data and find the meaning within. I specialize in doing data science with the R programming language, and have a strong focus on reproducibility.
+
+*My areas of expertise include:*
+
+-   Big data using [Apache Arrow](https://arrow.apache.org/) and [duckdb](https://duckdb.org/)
+-   [Population data science](https://ijpds.org/article/view/415)
+-   Biological and environmental data analysis and visualization
+-   Spatial data analysis and visualization
+-   Data workflow optimization and automation
+
+I can also help your organization understand and use open-source licenses for data and code, collaborate effectively using Git and GitHub, and organize and manage your data.
+
 ### Teaching and Workshops
+
+I am a passionate and experienced data science and programming instructor and I am certified as a [Carpentries](https://carpentries.org) instructor.
+
+*Example workshop topics include:*
+
+-   Introduction to data science with R
+-   R package development
+-   Geospatial data with R
+-   Git and GitHub
+
+This is not an exhaustive list! Please [reach out](about.qmd) if you have a workshop idea you'd like to discuss.
 
 ### R Package development
 
-### Shiny App developement
+I am an expert R package developer. I maintain [four packages on CRAN](packages.qmd) and have contributed to many others. I can help you develop and maintain your R package, or develop a new package for your organization.
+
+### Shiny App development
