@@ -1,11 +1,15 @@
 ---
-title: "Andy Teucher"
+title: "Andy Teucher, Data Science Consulting"
 ---
 
 I am a biologist turned data scientist, specializing in helping people and organizations build maintainable, reproducible data workflows. I am a strong open data and open code advocate, and believe in the value of using and contributing to open-source software.
 
 ## Services
 
+::: {.content-block}
+::: {.features}
+
+::: {.feature}
 ### Data Science Consulting
 
 I help people and organizations understand their data and find the meaning within. I specialize in doing data science with the R programming language, and have a strong focus on reproducibility.
@@ -19,7 +23,9 @@ I help people and organizations understand their data and find the meaning withi
 -   Data workflow optimization and automation
 
 I can also help your organization understand and use open-source licenses for data and code, collaborate effectively using Git and GitHub, and organize and manage your data.
+:::
 
+::: {.feature}
 ### Teaching and Workshops
 
 I am a passionate and experienced data science and programming instructor, and I am certified as a [Carpentries](https://carpentries.org) instructor.
@@ -32,11 +38,19 @@ I am a passionate and experienced data science and programming instructor, and I
 -   Git and GitHub
 
 This is not an exhaustive list! Please [reach out](about.qmd) if you have a workshop idea you'd like to discuss.
+:::
 
-### R Package development
+::: {.feature}
+### Data Science Software Development
 
 I am an expert R package developer. I maintain [several packages on CRAN](packages.qmd) and have contributed to many others. I can help you develop and maintain your R package, or develop a new package for your organization.
+:::
 
-### Shiny App development
+::: {.feature}
+### Interactive Web Applications
 
-I will help you understand and communicate your data by creating custom interactive dashboards and visualization tools using [Shiny](https://shiny.posit.co/).
+I will help you understand and communicate your data by creating custom interactive dashboards, web applications, and visualization tools using [Shiny](https://shiny.posit.co/).
+:::
+
+:::
+:::

@@ -1,0 +1,17 @@
+---
+title: "Contact"
+---
+
+## Andy Teucher, MSc.
+
+**Email:** [andy@andyteucher.ca](mailto:andy@andyteucher.ca)
+
+**Location:** Victoria, BC, Canada
+
+### Social Media
+
+**Mastodon:** [fosstodon/@andyteucher](https://fosstodon.org/@andyteucher)
+
+**GitHub:** [ateucher](https://github.com/ateucher)
+
+**LinkedIn:** [andyteucher](https://www.linkedin.com/in/andyteucher/)
