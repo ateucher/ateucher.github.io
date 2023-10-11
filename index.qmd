@@ -1,5 +1,6 @@
 ---
 title: "Andy Teucher, Data Science Consulting"
+toc: false
 ---
 
 I am a biologist turned data scientist, specializing in helping people and organizations build maintainable, reproducible data workflows. I am a strong open data and open code advocate, and believe in the value of using and contributing to open-source software.
