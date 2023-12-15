@@ -1,3 +1,20 @@
 ---
 title: "Teaching and Workshops"
 ---
+
+I am a passionate and experienced data science and programming instructor, and 
+I am certified as a [Carpentries](https://carpentries.org) instructor. I would 
+love to work with you to develop and deliver a workshop or course that suits 
+your needs.
+
+Examples of previous workshops:
+
+- [Fundamentals of Package Development (posit::conf(2023))](https://posit-conf-2023.github.io/pkg-dev/)
+
+- [Introduction to Data Science with R](https://bcgov.github.io/ds-cop-intro-to-r/)
+
+- [Geospatial Data Science with R](https://github.com/bcgov/bcgov-r-geo-workshop)
+
+- [Using R of Wildlife Telemetry Data Analysis](https://ninoxconsulting.github.io/r-telemetry-workshop-nov-2023/)
+
+- [Software Carpentry R Workshop](https://jpwrobinson.github.io/2016-12-07/)
