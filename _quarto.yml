@@ -17,10 +17,10 @@ website:
         text: R Packages
       - href: workshops.qmd
         text: Workshops
-      - href: shiny.qmd
-        text: Shiny Apps
+#     - href: shiny.qmd
+#       text: Shiny Apps
     right:
-      - blog.qmd
+#     - blog.qmd
       - href: about.qmd
         text: About
       - href: contact.qmd
