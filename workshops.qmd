@@ -7,14 +7,24 @@ I am certified as a [Carpentries](https://carpentries.org) instructor. I would
 love to work with you to develop and deliver a workshop or course that suits 
 your needs.
 
-Examples of previous workshops:
+### Examples of previous workshops:
 
-- [Fundamentals of Package Development (posit::conf(2023))](https://posit-conf-2023.github.io/pkg-dev/)
+[Fundamentals of Package Development (posit::conf(2023))](https://posit-conf-2023.github.io/pkg-dev/)
 
-- [Introduction to Data Science with R](https://bcgov.github.io/ds-cop-intro-to-r/)
+[Introduction to Data Science with R](https://bcgov.github.io/ds-cop-intro-to-r/)
 
-- [Geospatial Data Science with R](https://github.com/bcgov/bcgov-r-geo-workshop)
+[Geospatial Data Science with R](https://github.com/bcgov/bcgov-r-geo-workshop)
 
-- [Using R of Wildlife Telemetry Data Analysis](https://ninoxconsulting.github.io/r-telemetry-workshop-nov-2023/)
+[Using R of Wildlife Telemetry Data Analysis](https://ninoxconsulting.github.io/r-telemetry-workshop-nov-2023/)
 
-- [Software Carpentry R Workshop](https://jpwrobinson.github.io/2016-12-07/)
+[Software Carpentry R Workshop](https://jpwrobinson.github.io/2016-12-07/)
+
+### Testimonials
+
+> _I really loved how hands on this workshop was, I feel like I walked away with a lot of knowledge and I have a template I can look against now._
+
+> _The instructor was well experienced and had an easygoing nature. I felt confident coming back from the workshop and beginning development of my own package. I honestly felt inspired at the end of the day_
+
+> _Really impressive work, I was so thrilled to see efforts to keep it inclusive for learners of all types and abilities. Teaching to a room of folks with wildly varied skill sets is not easy!_
+
+> _I felt like the instruction was customized and accessible. Lots of opportunity for questions. It was good being shown different tools for analysis and getting to explore some commonly-used analyses and operations that can be broadly applied. Great course thanks very much!_
