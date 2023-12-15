@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://andyteucher.ca/packages.html</loc>
-    <lastmod>2023-10-12T00:01:25.014Z</lastmod>
-  </url>
-  <url>
-    <loc>https://andyteucher.ca/index.html</loc>
-    <lastmod>2023-10-12T00:01:23.766Z</lastmod>
+    <loc>https://andyteucher.ca/workshops.html</loc>
+    <lastmod>2023-12-15T17:29:09.516Z</lastmod>
   </url>
   <url>
     <loc>https://andyteucher.ca/shiny.html</loc>
-    <lastmod>2023-10-12T00:01:23.150Z</lastmod>
+    <lastmod>2023-12-15T17:29:09.056Z</lastmod>
   </url>
   <url>
-    <loc>https://andyteucher.ca/blog.html</loc>
-    <lastmod>2023-10-12T00:01:22.258Z</lastmod>
-  </url>
-  <url>
-    <loc>https://andyteucher.ca/workshops.html</loc>
-    <lastmod>2023-10-12T00:01:22.870Z</lastmod>
-  </url>
-  <url>
-    <loc>https://andyteucher.ca/contact.html</loc>
-    <lastmod>2023-10-12T00:01:23.422Z</lastmod>
+    <loc>https://andyteucher.ca/index.html</loc>
+    <lastmod>2023-12-15T17:29:08.040Z</lastmod>
   </url>
   <url>
     <loc>https://andyteucher.ca/about.html</loc>
-    <lastmod>2023-10-12T00:01:24.054Z</lastmod>
+    <lastmod>2023-12-15T17:29:07.224Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andyteucher.ca/blog.html</loc>
+    <lastmod>2023-12-15T17:29:07.744Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andyteucher.ca/packages.html</loc>
+    <lastmod>2023-12-15T17:29:08.840Z</lastmod>
+  </url>
+  <url>
+    <loc>https://andyteucher.ca/contact.html</loc>
+    <lastmod>2023-12-15T17:29:09.284Z</lastmod>
   </url>
 </urlset>
