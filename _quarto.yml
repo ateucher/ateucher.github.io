@@ -9,6 +9,12 @@ execute:
 website:
   title: "Andy Teucher"
   site-url: "https://andyteucher.ca"
+  google-analytics:
+    tracking-id: "G-57GYE4EX4G"
+    anonymize-ip: true
+    storage: none
+  # cookie-consent:
+  #   type: express
   navbar:
     left:
       - href: index.qmd
