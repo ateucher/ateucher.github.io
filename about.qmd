@@ -12,7 +12,7 @@ about:
       href: https://github.com/ateucher
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/andyteucher/
+      href: https://www.linkedin.com/in/andy-teucher/
     - icon: envelope-at
       text: Email
       href: mailto:andy@andyteucher.ca
