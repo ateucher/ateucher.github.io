@@ -16,6 +16,6 @@ title: "Contact Me"
 
 **LinkedIn:** [andyteucher](https://www.linkedin.com/in/andyteucher/)
 
-## Calender:
+### Calender:
 
 Book a meeting with me: <https://zcal.co/andyteucher>
