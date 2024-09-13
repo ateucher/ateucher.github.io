@@ -14,8 +14,6 @@ jobs:
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-        with:
-          version: pre-release
 
       - name: Render 
         uses: quarto-dev/quarto-actions/render@v2
@@ -27,6 +25,7 @@ jobs:
         uses: nwtgck/actions-netlify@v3
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: a01c4232-34a7-44c0-9bb7-abcd902db7b5
         with:
           publish-dir: './_site'
           production-deploy: false
@@ -40,4 +39,3 @@ jobs:
           enable-commit-status: true
           overwrites-pull-request-comment: false
         timeout-minutes: 1
-        
