@@ -35,7 +35,7 @@ jobs:
           alias: deploy-preview-${{ github.event.number }}
           # these all default to 'true'
           enable-pull-request-comment: true
-          enable-commit-comment: true
+          enable-commit-comment: false
           enable-commit-status: true
           overwrites-pull-request-comment: false
         timeout-minutes: 1
